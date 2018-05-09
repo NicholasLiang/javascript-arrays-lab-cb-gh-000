@@ -6,7 +6,7 @@ var destructivelyRemoveLastKitten=()=>{kittens.pop();return kittens;}
 var destructivelyRemoveFirstKitten=()=>{kittens.shift();return kittens;}
 var appendKitten=(name)=>[...kittens, name]
 var prependKitten=(name)=>[name, ...kittens]
-var 
+var removeLastKitten
 
 
 //   describe('removeLastKitten()', function() {
