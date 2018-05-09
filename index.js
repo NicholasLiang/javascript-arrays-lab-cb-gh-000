@@ -3,7 +3,8 @@ var kittens = ['Milo', 'Otis', 'Garfield']
 var destructivelyAppendKitten=(name)=>{kittens.push(name);return kittens;}
 var destructivelyPrependKitten=(name)=>{kittens.unshift(name);return kittens;}
 var destructivelyRemoveLastKitten=()=>{kittens.pop();return kittens;}
-destructivelyRemoveFirstKitten=()=>{kittens.shift();return kittens;}
+var destructivelyRemoveFirstKitten=()=>{kittens.shift();return kittens;}
+
 
 //   describe('destructivelyRemoveLastKitten()', function() {
 //     it('removes the last kitten from the kittens array', function() {
