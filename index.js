@@ -1,6 +1,6 @@
 const app = "I don't do much."
 var kittens = ['Milo', 'Otis', 'Garfield']
-destructiveAppendKitten(name)
+var destructiveAppendKitten=(name)
 
 
 // describe('Arrays', function() {
