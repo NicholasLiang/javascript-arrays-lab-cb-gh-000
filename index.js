@@ -6,24 +6,8 @@ var destructivelyRemoveLastKitten=()=>{kittens.pop();return kittens;}
 var destructivelyRemoveFirstKitten=()=>{kittens.shift();return kittens;}
 var appendKitten=(name)=>[...kittens, name]
 var prependKitten=(name)=>[name, ...kittens]
+var 
 
-
-
-//   describe('appendKitten(name)', function() {
-//     it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
-//       expect(appendKitten("Broom")).toEqual(["Milo", "Otis", "Garfield", "Broom"])
-
-//       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-//     })
-//   })
-
-//   describe('prependKitten(name)', function() {
-//     it('prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
-//       expect(prependKitten("Arnold")).toEqual(["Arnold", "Milo", "Otis", "Garfield"])
-
-//       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-//     })
-//   })
 
 //   describe('removeLastKitten()', function() {
 //     it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
